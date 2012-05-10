@@ -44,7 +44,7 @@ end
 function WRBoard:hasWord(word)
 	local foundLetterIndexes = Array2D:new(self.board.rows, self.board.cols)
 	for i = 0, self.board.size-1 do
-		if (self:hasWordImpl(word, 1, foundLetterIndexes, i)) then
+		if (self:hasWordImpl(string.upper(word), 1, foundLetterIndexes, i)) then
 			return true
 		end
 	end
