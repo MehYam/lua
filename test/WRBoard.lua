@@ -12,17 +12,33 @@ function WRBoard:new(rows, cols)
 	object.board:foreach(setRandom)
 	return object
 end
+function WRBoard:fromFile(filename)
+	-- read the .board file
+	local lines = {}
+	foreachFileLine(function(line) table.insert(lines, line) end, filename)
+	
+	-- create a board out of it
+	local retval = WRBoard:new(#lines, #lines[1])
+	for r=0, retval.board.rows-1 do
+		for c=0, retval.board.cols-1 do
+			--retval:put(r, c, lines[r+1]:sub(c+1,c+1))
+			local tile = lines[r+1]:sub(c+1,c+1)
+			if (tile == "-") then
+				retval.board:put(r, c, nil)
+			end
+		end
+	end
+	return retval
+end
 
 -- these offsets make searching around our prospective letter easier to code
 WRBoard.wordSearchOffsets = { { r=0, c=1 }, { r=1, c=1 }, { r=1, c=0 }, { r=1, c=-1}, { r=0, c=-1 }, { r=-1, c=-1 }, { r=-1, c=0 }, { r=-1, c=1} }
 function WRBoard:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
-	local char = string.sub(word, wordIndex, wordIndex)
+	local char = word:sub(wordIndex, wordIndex)
 	--print(wordIndex, char, startIndex, self.board:getByIndex(startIndex))
 	if self.board:getByIndex(startIndex) == char then
 		foundLetterIndexes:putByIndex(startIndex, wordIndex)
 		if wordIndex == #word then 
-			print("found it")
-			print(foundLetterIndexes)
 			return true -- we've found the entire word
 		else
 			-- try all of the adjacent letters to see if we can find anything
@@ -44,7 +60,9 @@ end
 function WRBoard:hasWord(word)
 	local foundLetterIndexes = Array2D:new(self.board.rows, self.board.cols)
 	for i = 0, self.board.size-1 do
-		if (self:hasWordImpl(string.upper(word), 1, foundLetterIndexes, i)) then
+		if (self:hasWordImpl(word:upper(), 1, foundLetterIndexes, i)) then
+print("found it")
+print(foundLetterIndexes)
 			return true
 		end
 	end
