@@ -94,3 +94,27 @@ function perfTest()
 	end
 	print("done in " .. (os.clock() - pre) .. " over " .. tcalls);
 end
+function perfTestBSearch()
+	tcalls = 0
+	local pre = os.clock()
+	for i=1, 1000000 do
+		local w = d[rand(1, #d)]
+		if not binarySearch(d, w) then
+			print("t doesn't have " .. w)
+			return
+		end
+	end
+	print("done in " .. (os.clock() - pre) .. " over " .. tcalls);
+end
+function perfTestHashLookup()
+	tcalls = 0
+	local pre = os.clock()
+	for i=1, 1000000 do
+		local w = d[rand(1, #d)]
+		if not rlookup[w] then
+			print("t doesn't have " .. w)
+			return
+		end
+	end
+	print("done in " .. (os.clock() - pre) .. " over " .. tcalls);
+end
