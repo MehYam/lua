@@ -14,8 +14,7 @@ function WRBoard:new(rows, cols)
 end
 function WRBoard:fromFile(filename)
 	-- read the .board file
-	local lines = {}
-	foreachFileLine(function(line) table.insert(lines, line) end, filename)
+	local lines = readFileLinesToArray(filename)
 	
 	-- create a board out of it
 	local retval = WRBoard:new(#lines, #lines[1])
@@ -57,16 +56,26 @@ function WRBoard:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
 	end
 	return false
 end
+function WRBoard:hasWordImplWithFoldedQU(word, wordIndex, foundLetterIndexes, startIndex)
+	-- the user needs to type "QU" in order to match the word in the dictionary, but the
+	-- board doesn't need to have an actual U adjacent to the Q, the letter comes for free.
+	-- So, scan through the word, and try each combination of QU with it intact vs. folded
+	-- into just the single Q letter
+-- TBD
+	return hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
+end
 function WRBoard:hasWord(word)
 	local foundLetterIndexes = Array2D:new(self.board.rows, self.board.cols)
 	for i = 0, self.board.size-1 do
-		if (self:hasWordImpl(word:upper(), 1, foundLetterIndexes, i)) then
-print("found it")
-print(foundLetterIndexes)
+		if (self:hasWordImplWithFoldedQU(word:upper(), 1, foundLetterIndexes, i)) then
 			return true
 		end
 	end
 	return false
+end
+function WRBoard:findAllWords()
+	for i = 0, self.board.size-1 do
+	end
 end
 function WRBoard:__tostring()
 	return self.board:__tostring()
