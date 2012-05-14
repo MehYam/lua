@@ -1,20 +1,6 @@
 require "Util"
 
-function binarySearch(t, value)
-	local first, last, mid = 1, #t, 0
-	while first <= last do
-		mid = math.floor( (first + last) / 2 )
-		if (value == t[mid]) then
-			return mid
-		end
-		if (value < t[mid]) then
-			last = mid - 1
-		else
-			first = mid + 1
-		end
-	end
-	return nil
-end
+-- TODO: cleanup, turn this inta a type
 
 Trie = {}
 function Trie:new(words)
@@ -43,9 +29,8 @@ function Trie:add(word)
 	end
 	node.word = true
 end
-tcalls = 0
+-- this is about four times as slow as :hasNodeImpl
 function Trie:hasNodeRecursiveImpl(node, word, index)
-tcalls = tcalls + 1
 	--local letter = word:sub(index, index)
 	local letter = word:byte(index)
 	if node[letter] then
