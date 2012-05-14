@@ -2,6 +2,7 @@ require "Array2D"
 require "Util"
 
 WRBoard = {}
+WRBoard.wordMinimum = 3
 function WRBoard:new(rows, cols)
 	local object = { board = Array2D:new(rows, cols) }
 	setmetatable(object, self)
@@ -22,8 +23,10 @@ function WRBoard:fromFile(filename)
 		for c=0, retval.board.cols-1 do
 			--retval:put(r, c, lines[r+1]:sub(c+1,c+1))
 			local tile = lines[r+1]:sub(c+1,c+1)
-			if (tile == "-") then
+			if tile == "-" then
 				retval.board:put(r, c, nil)
+			elseif tonumber(tile) == nil then
+				retval.board:put(r, c, tile)
 			end
 		end
 	end
@@ -79,12 +82,11 @@ function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters,
 	if not letter then return end
 	
 	currentWord = currentWord .. letter:lower();
---print(boardIndex, currentWord, #words)
 	traversedLetters:putByIndex(boardIndex, #currentWord)
 	
 	local hasFragment, hasWholeWord = dictionary:has(currentWord)
-	if (hasFragment) then
-		if (hasWholeWord) then words[currentWord] = true end
+	if hasFragment then
+		if hasWholeWord and #currentWord >= WRBoard.wordMinimum then words[currentWord] = true end
 		
 		-- loop all the unused adjacent neighbors to build more words
 		local r, c = self.board:getRowColFromIndex(boardIndex)
@@ -93,20 +95,25 @@ function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters,
 			if self.board:validRowCol(newR, newC) and self.board:get(newR, newC) and not traversedLetters:get(newR, newC) then
 				self:findWordsImpl(dictionary, words, currentWord, traversedLetters, self.board:getIndexFromRowCol(newR, newC))
 			end
+			-- automatic Q->QU unfolding
+			if letter == "Q" then
+				self:findWordsImpl(dictionary, words, currentWord .. "u", traversedLetters, self.board:getIndexFromRowCol(newR, newC))
+			end
 		end
 	end
 
 	-- undo the new word
 	traversedLetters:putByIndex(boardIndex, false)
-	currentWord = currentWord:sub(1, #currentWord-1)
 end
 function WRBoard:findAllWords(dictionary)
+local start = os.clock()
 	local foundWords = {}
 	local currentWord = ""
 	local currentTraversal = Array2D:new(self.board.rows, self.board.cols)
 	for i = 0, self.board.size-1 do
 		self:findWordsImpl(dictionary, foundWords, currentWord, currentTraversal, i)
 	end
+print("done in " .. (os.clock() - start))
 	return foundWords
 end
 function WRBoard:__tostring()
