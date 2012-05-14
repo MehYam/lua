@@ -73,10 +73,46 @@ function WRBoard:hasWord(word)
 	end
 	return false
 end
-function WRBoard:findAllWords()
-	for i = 0, self.board.size-1 do
+function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters, boardIndex)
+
+	local letter = self.board:getByIndex(boardIndex)
+	if not letter then return end
+	
+	currentWord = currentWord .. letter:lower();
+--print(boardIndex, currentWord, #words)
+	traversedLetters:putByIndex(boardIndex, #currentWord)
+	
+	local hasFragment, hasWholeWord = dictionary:has(currentWord)
+	if (hasFragment) then
+		if (hasWholeWord) then words[currentWord] = true end
+		
+		-- loop all the unused adjacent neighbors to build more words
+		local r, c = self.board:getRowColFromIndex(boardIndex)
+		for i, offset in pairs(WRBoard.wordSearchOffsets) do
+			local newR, newC = r + offset.r, c + offset.c
+			if self.board:validRowCol(newR, newC) and self.board:get(newR, newC) and not traversedLetters:get(newR, newC) then
+				self:findWordsImpl(dictionary, words, currentWord, traversedLetters, self.board:getIndexFromRowCol(newR, newC))
+			end
+		end
 	end
+
+	-- undo the new word
+	traversedLetters:putByIndex(boardIndex, false)
+	currentWord = currentWord:sub(1, #currentWord-1)
+end
+function WRBoard:findAllWords(dictionary)
+	local foundWords = {}
+	local currentWord = ""
+	local currentTraversal = Array2D:new(self.board.rows, self.board.cols)
+	for i = 0, self.board.size-1 do
+		self:findWordsImpl(dictionary, foundWords, currentWord, currentTraversal, i)
+	end
+	return foundWords
 end
 function WRBoard:__tostring()
 	return self.board:__tostring()
 end
+
+b = WRBoard:new(4, 4)
+b = WRBoard:fromFile("round3.board")
+print(b)
