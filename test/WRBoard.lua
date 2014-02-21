@@ -1,10 +1,20 @@
 require "Array2D"
 require "Util"
 
+--[[
+
+WRBoard - a class that implements a WordRacer/Boggle word game.
+
+WRBoard.implicitUafterQ:	because Q almost always requires a U to be useful in a word,
+we fold QU together so that a word like QUIT matches on a board that only has QIT.  If
+the board actually has QUIT, that matches too. 
+	
+]]
+
 WRBoard = {}
 WRBoard.wordMinimum = 3
 function WRBoard:new(rows, cols)
-	local object = { board = Array2D:new(rows, cols) }
+	local object = { board = Array2D:new(rows, cols), implicitUafterQ = true}
 	setmetatable(object, self)
 	self.__index = self
 	local function setRandom(row, col, val)
@@ -33,12 +43,16 @@ function WRBoard:fromFile(filename)
 	return retval
 end
 
--- these offsets make searching around our prospective letter easier to code
+-- KAI: we make a lot of temporary strings in the next function - could be more efficient if we used the byte values of 
+-- characters (string.byte(...)) and used that everywhere instead
+
+-- these offsets make rotating and testing for the next letter easier to code as a loop
 WRBoard.wordSearchOffsets = { { r=0, c=1 }, { r=1, c=1 }, { r=1, c=0 }, { r=1, c=-1}, { r=0, c=-1 }, { r=-1, c=-1 }, { r=-1, c=0 }, { r=-1, c=1} }
 function WRBoard:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
-	local char = word:sub(wordIndex, wordIndex)
+	local letter = word:sub(wordIndex, wordIndex)
 	--print(wordIndex, char, startIndex, self.board:getByIndex(startIndex))
-	if self.board:getByIndex(startIndex) == char then
+
+	if self.board:getByIndex(startIndex) == letter then
 		foundLetterIndexes:putByIndex(startIndex, wordIndex)
 		if wordIndex == #word then 
 			return true -- we've found the entire word
@@ -59,19 +73,25 @@ function WRBoard:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
 	end
 	return false
 end
-function WRBoard:hasWordImplWithFoldedQU(word, wordIndex, foundLetterIndexes, startIndex)
-	-- the user needs to type "QU" in order to match the word in the dictionary, but the
-	-- board doesn't need to have an actual U adjacent to the Q, the letter comes for free.
-	-- So, scan through the word, and try each combination of QU with it intact vs. folded
-	-- into just the single Q letter
--- TBD
-	return self:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
-end
 function WRBoard:hasWord(word)
 	local foundLetterIndexes = Array2D:new(self.board.rows, self.board.cols)
+	local wordUpper = word:upper()
+
 	for i = 0, self.board.size-1 do
-		if (self:hasWordImplWithFoldedQU(word:upper(), 1, foundLetterIndexes, i)) then
+		if (self:hasWordImpl(wordUpper, 1, foundLetterIndexes, i)) then
 			return true
+		end
+	end
+
+	-- make Q equivalent to QU on the board
+	if self.implicitUafterQ and wordUpper:find("QU") then
+		-- there are words with more than one Q, this catches all cases and combinations because loops over all
+		-- QU instances and is recursive (more exhaustive than it really needs to be, multiple Q words are rare)
+		for i = 1, #wordUpper do
+			if wordUpper:sub(i, i+1) == "QU" then
+				local folded = wordUpper:sub(1, i) .. wordUpper:sub(i+2)
+				if (self:hasWord(folded)) then return true end
+			end
 		end
 	end
 	return false
@@ -95,8 +115,8 @@ function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters,
 			if self.board:validRowCol(newR, newC) and self.board:get(newR, newC) and not traversedLetters:get(newR, newC) then
 				self:findWordsImpl(dictionary, words, currentWord, traversedLetters, self.board:getIndexFromRowCol(newR, newC))
 			end
-			-- second case:  automatic Q->QU unfolding, add a U automatically
-			if letter == "Q" then
+			-- check for implicit U after Q
+			if self.implicitUafterQ and letter == "Q" then
 				self:findWordsImpl(dictionary, words, currentWord .. "u", traversedLetters, self.board:getIndexFromRowCol(newR, newC))
 			end
 		end

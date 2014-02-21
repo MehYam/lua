@@ -30,14 +30,18 @@ for key,value in pairs(w) do print(key) end
 a = keysToArray(w)
 print("words found:" .. #a)
 
--- to sort the results:
--- table.sort(a)
--- for i,n in ipairs do print(i, n) end
-
 ------------------------------------------
-print("\n--- testing QU folding ---")
+print("\n--- testing QU unfolding ---")
 b = WRBoard:fromFile("qu.board")
-
 print(b)
-print("has QUAT: ", b:hasWord("quat"))
-print("has QUOIT: ", b:hasWord("quoit"))
+
+print("word list:")
+w = b:findAllWords(t)
+a = keysToArray(w)
+table.sort(a)
+for i,n in ipairs(a) do print(i, n) end
+print("found correct number of words: ", #a == 163, "found QUIT: ", a[101] == "quit")
+
+print("QU folding when hittesting words: ")
+print("WRBoard:hasWord QUOIT (normal):  ", b:hasWord("quoit"))
+print("WRBoard:hasWord QUIT (folded U): ", b:hasWord("quit"))
