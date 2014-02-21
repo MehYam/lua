@@ -65,7 +65,7 @@ function WRBoard:hasWordImplWithFoldedQU(word, wordIndex, foundLetterIndexes, st
 	-- So, scan through the word, and try each combination of QU with it intact vs. folded
 	-- into just the single Q letter
 -- TBD
-	return hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
+	return self:hasWordImpl(word, wordIndex, foundLetterIndexes, startIndex)
 end
 function WRBoard:hasWord(word)
 	local foundLetterIndexes = Array2D:new(self.board.rows, self.board.cols)
@@ -95,7 +95,7 @@ function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters,
 			if self.board:validRowCol(newR, newC) and self.board:get(newR, newC) and not traversedLetters:get(newR, newC) then
 				self:findWordsImpl(dictionary, words, currentWord, traversedLetters, self.board:getIndexFromRowCol(newR, newC))
 			end
-			-- automatic Q->QU unfolding
+			-- second case:  automatic Q->QU unfolding, add a U automatically
 			if letter == "Q" then
 				self:findWordsImpl(dictionary, words, currentWord .. "u", traversedLetters, self.board:getIndexFromRowCol(newR, newC))
 			end
@@ -106,20 +106,22 @@ function WRBoard:findWordsImpl(dictionary, words, currentWord, traversedLetters,
 	traversedLetters:putByIndex(boardIndex, false)
 end
 function WRBoard:findAllWords(dictionary)
-local start = os.clock()
+
+	local start = os.clock()
 	local foundWords = {}
 	local currentWord = ""
 	local currentTraversal = Array2D:new(self.board.rows, self.board.cols)
 	for i = 0, self.board.size-1 do
 		self:findWordsImpl(dictionary, foundWords, currentWord, currentTraversal, i)
 	end
-print("done in " .. (os.clock() - start))
+
+	print("done in " .. (os.clock() - start))
 	return foundWords
 end
 function WRBoard:__tostring()
 	return self.board:__tostring()
 end
 
-b = WRBoard:new(4, 4)
-b = WRBoard:fromFile("round3.board")
+--b = WRBoard:new(4, 4)
+b = WRBoard:fromFile("round1.board")
 print(b)

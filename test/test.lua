@@ -31,3 +31,18 @@ end
 	
 t = Table2D:new(4, 3)
 t:toString()
+
+
+-- quick tests of the WRBoard/WRDictionary:
+
+dofile("WRBoard.lua")
+dofile("WRDictionary.lua")
+w = b:findAllWords(t)
+for key,value in pairs(w) do print(key) end
+
+a = keysToArray(w)
+print("words found:" .. #a)
+
+-- to sort the results:
+-- table.sort(a)
+-- for i,n in ipairs do print(i, n) end

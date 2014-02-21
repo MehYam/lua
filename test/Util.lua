@@ -9,7 +9,7 @@ function readFileLinesToArray(filename)
 end
 function keysToArray(t)
 	local retval = {}
-	for i, v in pairs(w) do
+	for i, v in pairs(t) do
 		table.insert(retval, i)
 	end
 	return retval

@@ -29,7 +29,7 @@ function Trie:add(word)
 	end
 	node.word = true
 end
--- this is about four times as slow as :hasNodeImpl
+-- this is about four times as slow as :hasNodeImpl, kept for educational purposes.  Is this tail recursive?
 function Trie:hasNodeRecursiveImpl(node, word, index)
 	--local letter = word:sub(index, index)
 	local letter = word:byte(index)
