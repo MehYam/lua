@@ -1,3 +1,10 @@
+--[[ 
+
+TODO: this is my first Lua file, probably needs to be scoped to a type and all kinds of other stuff.  
+The WR* classes have dependency on this currently.
+
+]]
+
 function foreachFileLine(fn, filename)
 	local file = assert(io.open(filename, "r"))
 	for line in file:lines() do fn(line) end
@@ -7,6 +14,7 @@ function readFileLinesToArray(filename)
 	foreachFileLine(function(line) table.insert(lines, line) end, filename)
 	return lines
 end
+-- KAI: this should really be "map", like in Haskell
 function keysToArray(t)
 	local retval = {}
 	for i, v in pairs(t) do

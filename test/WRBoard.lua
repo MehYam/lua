@@ -121,7 +121,3 @@ end
 function WRBoard:__tostring()
 	return self.board:__tostring()
 end
-
---b = WRBoard:new(4, 4)
-b = WRBoard:fromFile("round1.board")
-print(b)

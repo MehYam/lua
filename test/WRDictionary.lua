@@ -63,10 +63,6 @@ function Trie:has(word)
 	return self:hasNodeImpl(word)
 end
 
-d = readFileLinesToArray("words.lst")
-t = Trie:new(d)
---t = Trie:new({ "latexes" })
-
 function perfTest()
 	tcalls = 0
 	local pre = os.clock()
