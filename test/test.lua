@@ -32,3 +32,13 @@ end
 t = Table2D:new(4, 3)
 t:toString()
 
+-- test some simple things
+local simpleArray = {}
+for i=1, 20 do
+	simpleArray[i] = 2^i
+end
+
+for i=1, #simpleArray do
+	print(simpleArray[i])
+end
+
