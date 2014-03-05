@@ -1,4 +1,5 @@
 require "Aliases"
+require "Input"
 require "ScrollingBackground"
 
 local sky = display.newImage( "bkg_clouds.png" )
@@ -10,32 +11,55 @@ sky.yScale = Aliases.dHeight / sky.height
 
 print("w,h: " .. Aliases.dWidth .. " x " .. Aliases.dHeight)
 
+local scrollingBackground = ScrollingBackground:new("grass.png")
+
 -- list of enter frame listeners
 local enterFrameClients = {}
 local tPrevious = system.getTimer()
 local function onEnterFrame(event)
 	local elapsed = event.time - tPrevious
 
+	-- process input
+	-- KAI: the background's scrolling shouldn't have "speed", it should really needs be set 
+	-- KAI: also, seems like Box2D should have this accel/inertia thing covered
+	-- by changes in the player's position
+	local acceleration = 0
+	local speed = scrollingBackground:getSpeed()
+	if Input.isKeyDown("left") then 
+		acceleration = -Aliases.ACCEL 
+	elseif Input.isKeyDown("right") then 
+		acceleration = Aliases.ACCEL 
+	else
+		-- inertia to stop
+		if speed > 0 then
+			acceleration = -Aliases.INERTIA
+		elseif speed < 0 then
+			acceleration = Aliases.INERTIA
+		end
+	end
+
+	speed = speed + acceleration
+	if speed > Aliases.MAX_SPEED then
+		speed = Aliases.MAX_SPEED
+	elseif speed < -Aliases.MAX_SPEED then
+		speed = -Aliases.MAX_SPEED
+	end
+
+	scrollingBackground:setSpeed(speed)
+
+	-- pump everyone's frames
 	for i, v in pairs(enterFrameClients) do
 		v:onFrame(elapsed, tPrevious)
 	end
 	tPrevious = event.time
+
 end
 
-local scrollingBackground = ScrollingBackground:new("grass.png")
-local acceleration = 0.01
-local function onKey(event)
-	if event.keyName == "left" then
-		scrollingBackground:setSpeed(scrollingBackground:getSpeed() - acceleration)
-	elseif event.keyName == "right" then
-		scrollingBackground:setSpeed(scrollingBackground:getSpeed() + acceleration)
-	end
-end
 
 table.insert(enterFrameClients, scrollingBackground)
 
 Runtime:addEventListener("enterFrame", onEnterFrame)
-Runtime:addEventListener("key", onKey)
+Runtime:addEventListener("key", Input.onKey)
 
 
 
