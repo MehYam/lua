@@ -45,6 +45,7 @@ local function onEnterFrame(event)
 		speed = -Aliases.MAX_SPEED
 	end
 
+	-- KAI: could potentially solve the layers of parallax scrolling just by using groups that have scales set on them
 	scrollingBackground:setSpeed(speed)
 
 	-- pump everyone's frames
@@ -77,14 +78,14 @@ wheel:setStrokeColor(0.5, 0, 0)
 
 parentGroup:insert(wheel)
 
-physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0.5 })
+physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0.1 })
 
 --
 local slope = 50
 local groundY = Aliases.dHeight * 0.8
 local ground = display.newLine(0, groundY, Aliases.dWidth, groundY + slope)
 ground:setStrokeColor(1, 0, 0, 1)
-ground.strokeWidth = 1
+ground.strokeWidth = 3
 
 parentGroup:insert(ground)
 
@@ -93,7 +94,7 @@ physics.addBody(ground, "static", {friction = 0, bounce = 0})
 
 local ground2 = display.newLine(0, groundY + slope * 2, Aliases.dWidth, groundY)
 ground2:setStrokeColor(0, 1, 0, 1)
-ground2.strokeWidth = 1
+ground2.strokeWidth = 3
 
 parentGroup:insert(ground2)
 
@@ -103,6 +104,20 @@ local function playWithGroup(event)
 
 	parentGroup.x = -wheel.x + Aliases.dWidth / 2
 	parentGroup.y = -wheel.y + Aliases.dHeight / 2
+
+	local force = 2
+
+	if Input.isKeyDown("left") then 
+		wheel:applyLinearImpulse( -force, 0, 0, 0 )
+	elseif Input.isKeyDown("right") then 
+		wheel:applyLinearImpulse( force, 0, 0, 0)
+	end
+
+	if Input.isKeyDown("up") then 
+		wheel:applyLinearImpulse( 0, -force * 2, 0, 0 )
+	elseif Input.isKeyDown("down") then 
+		wheel:applyLinearImpulse( 0, force, 0, 0)
+	end
 
 end
 
