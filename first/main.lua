@@ -67,11 +67,15 @@ Runtime:addEventListener("key", Input.onKey)
 local physics = require("physics")
 physics.start( );
 
+local parentGroup = display.newGroup()
+
 local wheelRadius = 20;
 local wheel = display.newCircle(Aliases.dWidth/2, Aliases.dHeight/2, wheelRadius)
 wheel:setFillColor(0.5);
 wheel.strokeWidth = 5
 wheel:setStrokeColor(0.5, 0, 0)
+
+parentGroup:insert(wheel)
 
 physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0.5 })
 
@@ -82,6 +86,8 @@ local ground = display.newLine(0, groundY, Aliases.dWidth, groundY + slope)
 ground:setStrokeColor(1, 0, 0, 1)
 ground.strokeWidth = 1
 
+parentGroup:insert(ground)
+
 physics.addBody(ground, "static", {friction = 0, bounce = 0})
 
 
@@ -89,5 +95,15 @@ local ground2 = display.newLine(0, groundY + slope * 2, Aliases.dWidth, groundY)
 ground2:setStrokeColor(0, 1, 0, 1)
 ground2.strokeWidth = 1
 
+parentGroup:insert(ground2)
+
 physics.addBody(ground2, "static", {friction = 0, bounce = 0})
 
+local function playWithGroup(event)
+
+	parentGroup.x = -wheel.x + Aliases.dWidth / 2
+	parentGroup.y = -wheel.y + Aliases.dHeight / 2
+
+end
+
+Runtime:addEventListener("enterFrame", playWithGroup)
