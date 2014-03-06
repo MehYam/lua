@@ -78,27 +78,30 @@ wheel:setStrokeColor(0.5, 0, 0)
 
 parentGroup:insert(wheel)
 
-physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0.1 })
+physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
 
 --
-local slope = 50
-local groundY = Aliases.dHeight * 0.8
-local ground = display.newLine(0, groundY, Aliases.dWidth, groundY + slope)
-ground:setStrokeColor(1, 0, 0, 1)
-ground.strokeWidth = 3
 
-parentGroup:insert(ground)
+for i = 0,10 do
+	print(i)
+	local slope = 50 * math.random()
+	local groundY = Aliases.dHeight * 0.8
+	local ground = display.newLine(i*Aliases.dWidth, groundY, (i+1)*Aliases.dWidth, groundY + slope)
+	ground:setStrokeColor(1, 0, 0, 1)
+	ground.strokeWidth = 10
 
-physics.addBody(ground, "static", {friction = 0, bounce = 0})
+	parentGroup:insert(ground)
 
+	physics.addBody(ground, "static", {friction = 0, bounce = 0})
 
-local ground2 = display.newLine(0, groundY + slope * 2, Aliases.dWidth, groundY)
-ground2:setStrokeColor(0, 1, 0, 1)
-ground2.strokeWidth = 3
+	local ground2 = display.newLine(i*Aliases.dWidth, groundY + slope * 2, (i+1)*Aliases.dWidth, groundY)
+	ground2:setStrokeColor(0, 1, 0, 1)
+	ground2.strokeWidth = 10
 
-parentGroup:insert(ground2)
+	parentGroup:insert(ground2)
 
-physics.addBody(ground2, "static", {friction = 0, bounce = 0})
+	physics.addBody(ground2, "static", {friction = 0, bounce = 0})
+end
 
 local function playWithGroup(event)
 
@@ -106,14 +109,16 @@ local function playWithGroup(event)
 	parentGroup.y = -wheel.y + Aliases.dHeight / 2
 
 	local force = 2
+	local MAX_VEL = 100
+	local vx, vy = wheel:getLinearVelocity( )
 
-	if Input.isKeyDown("left") then 
+	if Input.isKeyDown("left") and vx > -MAX_VEL then 
 		wheel:applyLinearImpulse( -force, 0, 0, 0 )
-	elseif Input.isKeyDown("right") then 
+	elseif Input.isKeyDown("right") and vx < MAX_VEL then 
 		wheel:applyLinearImpulse( force, 0, 0, 0)
 	end
 
-	if Input.isKeyDown("up") then 
+	if Input.isKeyDown("up") and vy > -MAX_VEL then 
 		wheel:applyLinearImpulse( 0, -force * 2, 0, 0 )
 	elseif Input.isKeyDown("down") then 
 		wheel:applyLinearImpulse( 0, force, 0, 0)
