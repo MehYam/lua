@@ -4,8 +4,8 @@ require "ScrollingBackground"
 
 local sky = display.newImage( "bkg_clouds.png" )
 
-sky.x = Aliases.dWidth / 2
-sky.y = Aliases.dHeight / 2
+sky.x = Aliases.centerX
+sky.y = Aliases.centerY
 sky.xScale = Aliases.dWidth / sky.width
 sky.yScale = Aliases.dHeight / sky.height
 
@@ -71,7 +71,8 @@ physics.start( );
 local parentGroup = display.newGroup()
 
 local wheelRadius = 20;
-local wheel = display.newCircle(Aliases.dWidth/2, Aliases.dHeight/2, wheelRadius)
+local wheel = display.newCircle(Aliases.centerX, Aliases.centerY, wheelRadius)
+--local wheel = display.newRect( Aliases.centerX - wheelRadius, Aliases.centerY - wheelRadius, wheelRadius*2, wheelRadius*2 )
 wheel:setFillColor(0.5);
 wheel.strokeWidth = 5
 wheel:setStrokeColor(0.5, 0, 0)
@@ -82,40 +83,45 @@ physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
 
 --
 
-for i = 0,10 do
-	print(i)
-	local slope = 50 * math.random()
-	local groundY = Aliases.dHeight * 0.8
-	local ground = display.newLine(i*Aliases.dWidth, groundY, (i+1)*Aliases.dWidth, groundY + slope)
-	ground:setStrokeColor(1, 0, 0, 1)
+local lastY = Aliases.dHeight * 0.8
+local SEGMENT = 10
+local slope = 0
+local slopeStart = 0
+for i = 0,10000 do
+	if i % 20 == 0 then
+		slope = SEGMENT * (math.random() - 0.5) / 2
+		slopeStart = i
+	end
+	local groundY = 0 
+	if slope < 0 then 
+		groundY = lastY + slope * (i - slopeStart)
+	else
+		groundY = lastY + slope * (20 - (i - slopeStart))
+	end
+	local ground = display.newLine(i*SEGMENT, lastY, (i+1)*SEGMENT, groundY)
+	ground:setStrokeColor(1, math.random(), math.random(), 1)
 	ground.strokeWidth = 10
+
+	lastY = groundY
 
 	parentGroup:insert(ground)
 
 	physics.addBody(ground, "static", {friction = 0, bounce = 0})
-
-	local ground2 = display.newLine(i*Aliases.dWidth, groundY + slope * 2, (i+1)*Aliases.dWidth, groundY)
-	ground2:setStrokeColor(0, 1, 0, 1)
-	ground2.strokeWidth = 10
-
-	parentGroup:insert(ground2)
-
-	physics.addBody(ground2, "static", {friction = 0, bounce = 0})
 end
 
 local function playWithGroup(event)
 
-	parentGroup.x = -wheel.x + Aliases.dWidth / 2
-	parentGroup.y = -wheel.y + Aliases.dHeight / 2
+	parentGroup.x = -wheel.x + Aliases.centerX
+	parentGroup.y = -wheel.y + Aliases.centerY
 
 	local force = 2
-	local MAX_VEL = 100
+	local MAX_VEL = 300
 	local vx, vy = wheel:getLinearVelocity( )
 
 	if Input.isKeyDown("left") and vx > -MAX_VEL then 
-		wheel:applyLinearImpulse( -force, 0, 0, 0 )
+		wheel:applyLinearImpulse( -force, 0, wheel.x, wheel.y )
 	elseif Input.isKeyDown("right") and vx < MAX_VEL then 
-		wheel:applyLinearImpulse( force, 0, 0, 0)
+		wheel:applyLinearImpulse( force, 0, wheel.x, wheel.y )
 	end
 
 	if Input.isKeyDown("up") and vy > -MAX_VEL then 
