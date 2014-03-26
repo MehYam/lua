@@ -12,7 +12,7 @@ function ScrollingBackground:new(fileName)
 
 	-- create enough copies of the tiled image to span the width of the display.
 	local totalWidth = 0
-	while totalWidth <= Aliases.dWidth do
+	repeat
 		local image = display.newImage(fileName)
 
 		image.anchorX = 0 -- anchor left
@@ -22,8 +22,9 @@ function ScrollingBackground:new(fileName)
 		totalWidth = totalWidth + image.contentWidth
 		table.insert(object.tiles, image)
 
-		print("created image", #object.tiles)
-	end
+		print("created image", #object.tiles, totalWidth)
+
+	until totalWidth >= (Aliases.dWidth + image.contentWidth) 
 
 	object:setPos(0)
 	return object
