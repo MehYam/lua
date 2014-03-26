@@ -2,29 +2,57 @@ require "Aliases"
 require "Input"
 require "ScrollingBackground"
 
-local sky = display.newImage( "bkg_clouds.png" )
+MainScene = {}
 
-sky.x = Aliases.centerX
-sky.y = Aliases.centerY
-sky.xScale = Aliases.dWidth / sky.width
-sky.yScale = Aliases.dHeight / sky.height
+function MainScene:new()
+	local object = 
+	{
+		foo = "foo",
+		scrollingBackground = nil,
+		frameListeners = {},
+		timePrevious = system.getTimer()
+	}
+	setmetatable(object, self)
+	self.__index = self
 
-print("w,h: " .. Aliases.dWidth .. " x " .. Aliases.dHeight)
+	-- this is cool - it's called a "table listener", and sort of lets you
+	-- do what bound methods acheive in AS3
+	Runtime:addEventListener("enterFrame", object)
 
-local scrollingBackground = ScrollingBackground:new("grass.png")
+	object:initSky()
+	object:initScrollingBackground()
+	return object
+end
 
--- list of enter frame listeners
-local enterFrameClients = {}
-local tPrevious = system.getTimer()
-local function onEnterFrame(event)
-	local elapsed = event.time - tPrevious
+function MainScene:initSky()
+	-- sky
+	local sky = display.newImage( "bkg_clouds.png" )
+
+	sky.x = Aliases.centerX
+	sky.y = Aliases.centerY
+	sky.xScale = Aliases.dWidth / sky.width
+	sky.yScale = Aliases.dHeight / sky.height
+
+	print("w,h: " .. Aliases.dWidth .. " x " .. Aliases.dHeight)
+end
+function MainScene:initScrollingBackground()
+
+	self.scrollingBackground = ScrollingBackground:new("grass.png")
+
+	print (self.frameListeners, self.scrollingBackground)
+	table.insert(self.frameListeners, self.scrollingBackground)
+
+end
+function MainScene:enterFrame(event)
+
+	local elapsed = event.time - self.timePrevious
 
 	-- process input
 	-- KAI: the background's scrolling shouldn't have "speed", it should really needs be set 
 	-- KAI: also, seems like Box2D should have this accel/inertia thing covered
 	-- by changes in the player's position
 	local acceleration = 0
-	local speed = scrollingBackground:getSpeed()
+	local speed = self.scrollingBackground:getSpeed()
 	if Input.isKeyDown("left") then 
 		acceleration = -Aliases.ACCEL 
 	elseif Input.isKeyDown("right") then 
@@ -46,22 +74,19 @@ local function onEnterFrame(event)
 	end
 
 	-- KAI: could potentially solve the layers of parallax scrolling just by using groups that have scales set on them
-	scrollingBackground:setSpeed(speed)
+	self.scrollingBackground:setSpeed(speed)
 
 	-- pump everyone's frames
-	for i, v in pairs(enterFrameClients) do
-		v:onFrame(elapsed, tPrevious)
+	for i, v in pairs(self.frameListeners) do
+		v:onFrame(elapsed, self.timePrevious)
 	end
-	tPrevious = event.time
-
+	self.timePrevious = event.time
 end
 
+local mainScene = MainScene:new()
 
-table.insert(enterFrameClients, scrollingBackground)
 
-Runtime:addEventListener("enterFrame", onEnterFrame)
 Runtime:addEventListener("key", Input.onKey)
-
 
 
 -- test code -----------------------------------------

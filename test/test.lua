@@ -6,7 +6,11 @@ function Table2D:new(rows, cols)
 	for i = 0, rows*cols do
 		object.items[i] = nil
 	end
+	object:test()
 	return object
+end
+function Table2D:test()
+	print ("here", self.rows)
 end
 function Table2D:get(r, c)
 	return self.items[r * self.cols + c]
@@ -26,7 +30,6 @@ function Table2D:toString()
 			io.write(self.items[i], " ")
 		end
 	end
-	print()
 end
 	
 t = Table2D:new(4, 3)
