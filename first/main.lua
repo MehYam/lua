@@ -83,7 +83,7 @@ physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
 
 --
 
-local lastY = Aliases.dHeight * 0.8
+local lastY = Aliases.dHeight
 local SEGMENT = 10
 local slope = 0
 local slopeStart = 0
