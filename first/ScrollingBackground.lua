@@ -1,55 +1,41 @@
 
 
 ScrollingBackground = {}
-function ScrollingBackground:new(image)
+function ScrollingBackground:new(fileName)
 	local object = 
 	{ 
-		speed = 0,
-		left = display.newImage(image),
-		right = display.newImage(image)
+		pos = 0,
+		tiles = {}
 	}
 	setmetatable(object, self)
 	self.__index = self
 
-	object.left.anchorX = 0 -- anchor left
-	object.left.anchorY = 1 -- anchor from the bottom
-	object.left.x = 0
-	object.left.y = Aliases.dHeight
+	-- create enough copies of the tiled image to span the width of the display.
+	local totalWidth = 0
+	while totalWidth <= Aliases.dWidth do
+		local image = display.newImage(fileName)
 
-	object.right.anchorX = 0
-	object.right.anchorY = 1
-	object.right.x = Aliases.dWidth
-	object.right.y = Aliases.dHeight
+		image.anchorX = 0 -- anchor left
+		image.anchorY = 1 -- anchor from the bottom (for now, this is convenient)
+		image.y = Aliases.dHeight
+
+		totalWidth = totalWidth + image.contentWidth
+		table.insert(object.tiles, image)
+
+		print("created image", #object.tiles)
+	end
+
+	object:setPos(0)
 	return object
 end
 
-function ScrollingBackground:getSpeed() return self.speed end
-function ScrollingBackground:setSpeed(speed) self.speed = speed end
+function ScrollingBackground:setPos(pos)
+	self.pos = pos
 
-function ScrollingBackground:onFrame(elapsed, tPrevious)
+	local tileWidth = self.tiles[1].contentWidth
+	local moduloPos = pos % tileWidth
 
-	local xOffset = ( -self.speed * elapsed )
-
-	self.left.x = self.left.x + xOffset
-	self.right.x = self.right.x + xOffset
-
-	if self.speed > 0 then
-		function wrapRight(obj, objOther)
-			if (obj.x + obj.contentWidth) < 0 then
-				obj.x = objOther.x + objOther.contentWidth
-				print("wrapRight")
-			end
-		end
-		wrapRight(self.left, self.right)
-		wrapRight(self.right, self.left)
-	elseif self.speed < 0 then
-		function wrapLeft(obj, objOther)
-			if (obj.x > Aliases.dWidth) then
-				obj.x = objOther.x - obj.contentWidth
-				print("wrapLeft")
-			end
-		end
-		wrapLeft(self.left, self.right)
-		wrapLeft(self.right, self.left)
+	for i, v in ipairs(self.tiles) do
+		v.x = -moduloPos + (i - 1) * tileWidth
 	end
 end

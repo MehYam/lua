@@ -7,7 +7,6 @@ MainScene = {}
 function MainScene:new()
 	local object = 
 	{
-		foo = "foo",
 		scrollingBackground = nil,
 		frameListeners = {},
 		timePrevious = system.getTimer()
@@ -21,7 +20,7 @@ function MainScene:new()
 
 	object:initSky()
 	object:initScrollingBackground()
-	object:testMockup()
+	object:testMockup1()
 
 	Runtime:addEventListener("key", Input.onKey)
 	return object
@@ -42,48 +41,55 @@ function MainScene:initScrollingBackground()
 
 	self.scrollingBackground = ScrollingBackground:new("grass.png")
 
-	print (self.frameListeners, self.scrollingBackground)
-	table.insert(self.frameListeners, self.scrollingBackground)
-
 end
 function MainScene:enterFrame(event)
 
 	local elapsed = event.time - self.timePrevious
-
-	-- process input
-	-- KAI: the background's scrolling shouldn't have "speed", it should really needs be set 
-	-- KAI: also, seems like Box2D should have this accel/inertia thing covered
-	-- by changes in the player's position
-	local acceleration = 0
-	local speed = self.scrollingBackground:getSpeed()
-	if Input.isKeyDown("left") then 
-		acceleration = -Aliases.ACCEL 
-	elseif Input.isKeyDown("right") then 
-		acceleration = Aliases.ACCEL 
-	else
-		-- inertia to stop
-		if speed > 0 then
-			acceleration = -Aliases.INERTIA
-		elseif speed < 0 then
-			acceleration = Aliases.INERTIA
-		end
-	end
-
-	speed = speed + acceleration
-	if speed > Aliases.MAX_SPEED then
-		speed = Aliases.MAX_SPEED
-	elseif speed < -Aliases.MAX_SPEED then
-		speed = -Aliases.MAX_SPEED
-	end
-
-	-- KAI: could potentially solve the layers of parallax scrolling just by using groups that have scales set on them
-	self.scrollingBackground:setSpeed(speed)
 
 	-- pump everyone's frames
 	for i, v in pairs(self.frameListeners) do
 		v:onFrame(elapsed, self.timePrevious)
 	end
 	self.timePrevious = event.time
+end
+
+function MainScene:testMockup0()
+	local physics = require("physics")
+	physics.start( );
+
+	-- in order to keep the hero at the centerpoint of the screen, we parent everything to
+	-- parentGroup, and move it around the screen
+	local parentGroup = display.newGroup()
+
+	self:createFloor(parentGroup)
+end
+
+function MainScene:createFloor(parentGroup)
+	local lastY = Aliases.dHeight
+	local SEGMENT = 10
+	local slope = 0
+	local slopeStart = 0
+	for i = 0,10000 do
+		if i % 20 == 0 then
+			slope = SEGMENT * (math.random() - 0.5) / 2
+			slopeStart = i
+		end
+		local groundY = 0 
+		if slope < 0 then 
+			groundY = lastY + slope * (i - slopeStart)
+		else
+			groundY = lastY + slope * (20 - (i - slopeStart))
+		end
+		local ground = display.newLine(i*SEGMENT - 5000, lastY, (i+1)*SEGMENT - 5000, groundY)
+		ground:setStrokeColor(1, math.random(), math.random(), 1)
+		ground.strokeWidth = 10
+
+		lastY = groundY
+
+		parentGroup:insert(ground)
+
+		physics.addBody(ground, "static", {friction = 0, bounce = 0})
+	end
 end
 
 function MainScene:testMockup1()
@@ -104,35 +110,9 @@ function MainScene:testMockup1()
 
 	physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
 
-	--
+	self:createFloor(parentGroup)
 
-	local lastY = Aliases.dHeight
-	local SEGMENT = 10
-	local slope = 0
-	local slopeStart = 0
-	for i = 0,10000 do
-		if i % 20 == 0 then
-			slope = SEGMENT * (math.random() - 0.5) / 2
-			slopeStart = i
-		end
-		local groundY = 0 
-		if slope < 0 then 
-			groundY = lastY + slope * (i - slopeStart)
-		else
-			groundY = lastY + slope * (20 - (i - slopeStart))
-		end
-		local ground = display.newLine(i*SEGMENT, lastY, (i+1)*SEGMENT, groundY)
-		ground:setStrokeColor(1, math.random(), math.random(), 1)
-		ground.strokeWidth = 10
-
-		lastY = groundY
-
-		parentGroup:insert(ground)
-
-		physics.addBody(ground, "static", {friction = 0, bounce = 0})
-	end
-
-	local function playWithGroup(event)
+	local function enterFrame(event)
 
 		parentGroup.x = -wheel.x + Aliases.centerX
 		parentGroup.y = -wheel.y + Aliases.centerY
@@ -153,10 +133,12 @@ function MainScene:testMockup1()
 			wheel:applyLinearImpulse( 0, force, 0, 0)
 		end
 
+		self.scrollingBackground:setPos(wheel.x)
 	end
 
-	Runtime:addEventListener("enterFrame", playWithGroup)
+	Runtime:addEventListener("enterFrame", enterFrame)
 end
 
+-- start the scene
 local mainScene = MainScene:new()
 
