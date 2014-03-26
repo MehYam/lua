@@ -21,6 +21,9 @@ function MainScene:new()
 
 	object:initSky()
 	object:initScrollingBackground()
+	object:testMockup()
+
+	Runtime:addEventListener("key", Input.onKey)
 	return object
 end
 
@@ -83,78 +86,77 @@ function MainScene:enterFrame(event)
 	self.timePrevious = event.time
 end
 
+function MainScene:testMockup1()
+
+	local physics = require("physics")
+	physics.start( );
+
+	local parentGroup = display.newGroup()
+
+	local wheelRadius = 20;
+	local wheel = display.newCircle(Aliases.centerX, Aliases.centerY, wheelRadius)
+	--local wheel = display.newRect( Aliases.centerX - wheelRadius, Aliases.centerY - wheelRadius, wheelRadius*2, wheelRadius*2 )
+	wheel:setFillColor(0.5);
+	wheel.strokeWidth = 5
+	wheel:setStrokeColor(0.5, 0, 0)
+
+	parentGroup:insert(wheel)
+
+	physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
+
+	--
+
+	local lastY = Aliases.dHeight
+	local SEGMENT = 10
+	local slope = 0
+	local slopeStart = 0
+	for i = 0,10000 do
+		if i % 20 == 0 then
+			slope = SEGMENT * (math.random() - 0.5) / 2
+			slopeStart = i
+		end
+		local groundY = 0 
+		if slope < 0 then 
+			groundY = lastY + slope * (i - slopeStart)
+		else
+			groundY = lastY + slope * (20 - (i - slopeStart))
+		end
+		local ground = display.newLine(i*SEGMENT, lastY, (i+1)*SEGMENT, groundY)
+		ground:setStrokeColor(1, math.random(), math.random(), 1)
+		ground.strokeWidth = 10
+
+		lastY = groundY
+
+		parentGroup:insert(ground)
+
+		physics.addBody(ground, "static", {friction = 0, bounce = 0})
+	end
+
+	local function playWithGroup(event)
+
+		parentGroup.x = -wheel.x + Aliases.centerX
+		parentGroup.y = -wheel.y + Aliases.centerY
+
+		local force = 2
+		local MAX_VEL = 300
+		local vx, vy = wheel:getLinearVelocity( )
+
+		if Input.isKeyDown("left") and vx > -MAX_VEL then 
+			wheel:applyLinearImpulse( -force, 0, wheel.x, wheel.y )
+		elseif Input.isKeyDown("right") and vx < MAX_VEL then 
+			wheel:applyLinearImpulse( force, 0, wheel.x, wheel.y )
+		end
+
+		if Input.isKeyDown("up") and vy > -MAX_VEL then 
+			wheel:applyLinearImpulse( 0, -force * 2, 0, 0 )
+		elseif Input.isKeyDown("down") then 
+			wheel:applyLinearImpulse( 0, force, 0, 0)
+		end
+
+	end
+
+	Runtime:addEventListener("enterFrame", playWithGroup)
+end
+
 local mainScene = MainScene:new()
 
-
-Runtime:addEventListener("key", Input.onKey)
-
-
--- test code -----------------------------------------
-local physics = require("physics")
-physics.start( );
-
-local parentGroup = display.newGroup()
-
-local wheelRadius = 20;
-local wheel = display.newCircle(Aliases.centerX, Aliases.centerY, wheelRadius)
---local wheel = display.newRect( Aliases.centerX - wheelRadius, Aliases.centerY - wheelRadius, wheelRadius*2, wheelRadius*2 )
-wheel:setFillColor(0.5);
-wheel.strokeWidth = 5
-wheel:setStrokeColor(0.5, 0, 0)
-
-parentGroup:insert(wheel)
-
-physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
-
---
-
-local lastY = Aliases.dHeight
-local SEGMENT = 10
-local slope = 0
-local slopeStart = 0
-for i = 0,10000 do
-	if i % 20 == 0 then
-		slope = SEGMENT * (math.random() - 0.5) / 2
-		slopeStart = i
-	end
-	local groundY = 0 
-	if slope < 0 then 
-		groundY = lastY + slope * (i - slopeStart)
-	else
-		groundY = lastY + slope * (20 - (i - slopeStart))
-	end
-	local ground = display.newLine(i*SEGMENT, lastY, (i+1)*SEGMENT, groundY)
-	ground:setStrokeColor(1, math.random(), math.random(), 1)
-	ground.strokeWidth = 10
-
-	lastY = groundY
-
-	parentGroup:insert(ground)
-
-	physics.addBody(ground, "static", {friction = 0, bounce = 0})
-end
-
-local function playWithGroup(event)
-
-	parentGroup.x = -wheel.x + Aliases.centerX
-	parentGroup.y = -wheel.y + Aliases.centerY
-
-	local force = 2
-	local MAX_VEL = 300
-	local vx, vy = wheel:getLinearVelocity( )
-
-	if Input.isKeyDown("left") and vx > -MAX_VEL then 
-		wheel:applyLinearImpulse( -force, 0, wheel.x, wheel.y )
-	elseif Input.isKeyDown("right") and vx < MAX_VEL then 
-		wheel:applyLinearImpulse( force, 0, wheel.x, wheel.y )
-	end
-
-	if Input.isKeyDown("up") and vy > -MAX_VEL then 
-		wheel:applyLinearImpulse( 0, -force * 2, 0, 0 )
-	elseif Input.isKeyDown("down") then 
-		wheel:applyLinearImpulse( 0, force, 0, 0)
-	end
-
-end
-
-Runtime:addEventListener("enterFrame", playWithGroup)
