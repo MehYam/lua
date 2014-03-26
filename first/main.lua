@@ -70,9 +70,10 @@ end
 function MainScene:createFloor(parentGroup)
 	local lastY = Aliases.dHeight
 	local SEGMENT = 10
+	local SEGMENTS = 5000
 	local slope = 0
 	local slopeStart = 0
-	for i = 0,10000 do
+	for i = -SEGMENTS, SEGMENTS do
 		if i % 20 == 0 then
 			slope = SEGMENT * (math.random() - 0.5) / 2
 			slopeStart = i
@@ -83,11 +84,15 @@ function MainScene:createFloor(parentGroup)
 		else
 			groundY = lastY + slope * (20 - (i - slopeStart))
 		end
-		local ground = display.newLine(i*SEGMENT - 5000, lastY, (i+1)*SEGMENT - 5000, groundY)
-		ground:setStrokeColor(1, math.random(), math.random(), 1)
+		local ground = display.newLine(i*SEGMENT, lastY, (i+1)*SEGMENT, groundY)
+		ground:setStrokeColor(math.random(), math.random(), math.random(), 1)
 		ground.strokeWidth = 10
 
 		lastY = groundY
+
+		if i == 0 then
+			self.hero.y = lastY - 1000
+		end
 
 		parentGroup:insert(ground)
 
@@ -102,18 +107,19 @@ function MainScene:testMockup1()
 
 	local parentGroup = display.newGroup()
 
+	self:createFloor(parentGroup)
+
 	local wheelRadius = 20;
 	local wheel = display.newCircle(Aliases.centerX, Aliases.centerY, wheelRadius)
 	--local wheel = display.newRect( Aliases.centerX - wheelRadius, Aliases.centerY - wheelRadius, wheelRadius*2, wheelRadius*2 )
 	wheel:setFillColor(0.5);
 	wheel.strokeWidth = 5
 	wheel:setStrokeColor(0.5, 0, 0)
-
 	parentGroup:insert(wheel)
 
 	physics.addBody(wheel, { density = 3, friction = 0.5, bounce = 0 })
 
-	self:createFloor(parentGroup)
+	wheel.y = self.hero.y
 
 	local function enterFrame(event)
 
