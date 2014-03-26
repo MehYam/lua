@@ -7,6 +7,7 @@ MainScene = {}
 function MainScene:new()
 	local object = 
 	{
+		hero = { x = 0, y = 0},
 		scrollingBackground = nil,
 		frameListeners = {},
 		timePrevious = system.getTimer()
@@ -51,6 +52,8 @@ function MainScene:enterFrame(event)
 		v:onFrame(elapsed, self.timePrevious)
 	end
 	self.timePrevious = event.time
+
+	self.scrollingBackground:setPos(self.hero.x / 5)
 end
 
 function MainScene:testMockup0()
@@ -133,7 +136,7 @@ function MainScene:testMockup1()
 			wheel:applyLinearImpulse( 0, force, 0, 0)
 		end
 
-		self.scrollingBackground:setPos(wheel.x)
+		self.hero.x = wheel.x
 	end
 
 	Runtime:addEventListener("enterFrame", enterFrame)
