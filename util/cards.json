@@ -1,0 +1,5255 @@
+{
+	"cards":
+	[
+		{
+			"asset": "1.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "10.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "100.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "101.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "102.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "103.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "105.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "107.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "108.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "110.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "111.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "112.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "114.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "115.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "116.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "117.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "119.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "120.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "121.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "122.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "123.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "124.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "125.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "126.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "127.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "128.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "129.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "130.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "131.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "133.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "135.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "137.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "138.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "139.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "14.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "140.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "141.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "142.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "146.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "147.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "148.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "149.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "15.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "151.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "152.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "153.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "154.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "156.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "157.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "158.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "159.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "16.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "160.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "161.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "162.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "163.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "164.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "165.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "166.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "167.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "170.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "172.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "173.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "174.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "176.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "177.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "178.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "179.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "18.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "180.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "181.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "182.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "183.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "184.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "185.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "188.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "189.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "19.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "190.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "191.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "192.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "193.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "194.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "195.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "196.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "197.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "198.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "2.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "20.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "200.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "201.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "203.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "204.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "205.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "206.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "207.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "208.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "209.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "21.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "210.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "212.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "213.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "214.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "215.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "216.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "217.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "218.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "219.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "22.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "220.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "221.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "222.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "223.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "225.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "227.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "228.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "229.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "23.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "230.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "231.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "232.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "233.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "234.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "235.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "236.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "237.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "238.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "239.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "24.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "240.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "241.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "242.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "243.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "244.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "245.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "246.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "247.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "248.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "249.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "25.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "250.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "251.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "252.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "253.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "255.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "256.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "257.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "258.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "26.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "260.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "261.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "262.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "263.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "264.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "265.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "266.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "267.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "268.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "27.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "270.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "272.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "273.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "274.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "275.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "276.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "278.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "279.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "28.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "280.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "282.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "283.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "284.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "285.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "286.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "287.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "288.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "289.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "29.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "293.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "297.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "298.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "299.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "3.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "30.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "301.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "303.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "304.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "305.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "309.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "31.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "310.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "311.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "313.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "315.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "316.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "317.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "318.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "319.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "32.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "320.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "321.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "323.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "324.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "325.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "326.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "327.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "328.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "329.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "33.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "330.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "332.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "334.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "335.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "337.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "338.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "339.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "34.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "340.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "344.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "345.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "346.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "348.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "349.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "350.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "354.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "355.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "356.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "357.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "358.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "359.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "36.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "360.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "362.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "363.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "364.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "365.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "366.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "367.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "368.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "369.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "372.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "373.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "375.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "376.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "377.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "378.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "38.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "381.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "382.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "383.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "385.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "386.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "387.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "388.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "389.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "39.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "390.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "391.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "392.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "393.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "394.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "395.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "396.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "397.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "398.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "399.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "4.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "401.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "402.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "403.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "404.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "405.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "406.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "407.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "408.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "409.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "41.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "410.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "411.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "414.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "415.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "417.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "42.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "420.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "421.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "422.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "423.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "424.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "425.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "428.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "43.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "430.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "431.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "432.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "433.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "434.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "435.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "436.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "438.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "439.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "44.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "441.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "442.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "443.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "444.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "447.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "45.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "450.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "451.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "452.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "453.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "454.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "455.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "456.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "457.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "459.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "463.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "464.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "467.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "469.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "47.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "470.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "471.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "472.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "473.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "474.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "475.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "476.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "477.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "479.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "480.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "481.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "482.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "483.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "484.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "485.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "486.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "488.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "489.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "49.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "490.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "491.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "493.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "494.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "495.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "496.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "498.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "499.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "50.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "500.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "501.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "502.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "503.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "504.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "506.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "507.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "509.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "51.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "510.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "512.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "513.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "517.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "518.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "519.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "520.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "522.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "523.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "524.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "525.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "526.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "527.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "529.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "53.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "530.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "531.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "532.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "534.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "535.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "539.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "54.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "541.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "542.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "544.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "545.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "547.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "548.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "55.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "550.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "552.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "553.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "554.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "557.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "559.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "56.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "560.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "561.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "562.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "564.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "565.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "566.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "567.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "568.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "569.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "57.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "572.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "573.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "576.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "577.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "578.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "58.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "580.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "581.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "582.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "583.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "584.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "586.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "587.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "589.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "592.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "593.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "595.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "597.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "598.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "599.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "60.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "600.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "602.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "603.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "604.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "605.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "606.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "610.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "611.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "612.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "613.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "614.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "618.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "619.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "62.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "620.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "621.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "622.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "624.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "625.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "627.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "629.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "63.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "630.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "632.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "633.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "634.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "635.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "636.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "637.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "638.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "641.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "642.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "643.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "644.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "645.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "646.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "647.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "648.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "65.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "650.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "653.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "655.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "656.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "657.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "658.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "659.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "660.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "662.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "663.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "664.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "666.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "667.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "669.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "67.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "670.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "671.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "672.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "673.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "674.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "675.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "676.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "677.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "678.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "679.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "680.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "682.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "685.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "687.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "689.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "69.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "7.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "70.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "714.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "715.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "716.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "717.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "73.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "74.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "75.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "76.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "77.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "8.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "80.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "81.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "82.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "83.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "84.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "85.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "86.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "87.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "88.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "9.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "90.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "92.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "94.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "95.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "96.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "97.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "98.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+		{
+			"asset": "99.png",
+			"name": "",
+			"type": "minion/spell/weapon/hero",
+			"text": "",
+			"cost": "",
+			"actions":
+			{
+			}
+		}
+	]
+}

@@ -21,7 +21,7 @@ function MainScene:new()
 
 	object:initSky()
 	object:initScrollingBackground()
-	object:testMockup1()
+	object:testMockup2()
 
 	Runtime:addEventListener("key", Input.onKey)
 	return object
@@ -56,17 +56,6 @@ function MainScene:enterFrame(event)
 	self.scrollingBackground:setPos(self.hero.x / 5)
 end
 
-function MainScene:testMockup0()
-	local physics = require("physics")
-	physics.start( );
-
-	-- in order to keep the hero at the centerpoint of the screen, we parent everything to
-	-- parentGroup, and move it around the screen
-	local parentGroup = display.newGroup()
-
-	self:createFloor(parentGroup)
-end
-
 function MainScene:createFloor(parentGroup)
 	local lastY = Aliases.dHeight
 	local SEGMENT = 10
@@ -75,7 +64,7 @@ function MainScene:createFloor(parentGroup)
 	local slopeStart = 0
 	for i = -SEGMENTS, SEGMENTS do
 		if i % 20 == 0 then
-			slope = SEGMENT * (math.random() - 0.5) / 2
+			slope = SEGMENT * (math.random() - 0.5) / 4
 			slopeStart = i
 		end
 		local groundY = 0 
@@ -147,6 +136,20 @@ function MainScene:testMockup1()
 
 	Runtime:addEventListener("enterFrame", enterFrame)
 end
+
+function MainScene:testMockup2()
+	local physics = require("physics")
+	physics.start( );
+
+	-- in order to keep the hero at the centerpoint of the screen, we parent everything to
+	-- parentGroup, and move it around the screen
+	local parentGroup = display.newGroup()
+
+	self:createFloor(parentGroup)
+
+	
+end
+
 
 -- start the scene
 local mainScene = MainScene:new()
