@@ -90,6 +90,7 @@ function cardXMLToJSON(xml)
 	local combo = getOptionalTagValue(xml.child, "Combo")
 	local overload = getOptionalTagValue(xml.child, "Recall")
 	local spellpower = getOptionalTagValue(xml.child, "Spellpower")
+	local secret = getOptionalTagValue(xml.child, "Secret")
 	local targetingText = getCardText(xml.child, "TargetingArrowText")
 
 	--------------------------
@@ -117,6 +118,7 @@ function cardXMLToJSON(xml)
 	addTrait("combo", combo)
 	addTrait("overload", overload)
 	addTrait("spellpower", spellpower)
+	addTrait("secret", secret)
 
 	addTrait("text", cardText)
 	addTrait("targetingText", targetingText)

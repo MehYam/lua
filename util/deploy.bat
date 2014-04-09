@@ -1,0 +1,1 @@
+copy cards.json C:\source\unity\HST\Assets
